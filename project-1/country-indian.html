@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indian Recipes</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">🍴 Delicious Recipes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="recipes.html" class="nav-link active">Recipes</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Recipes Section -->
+  <section class="container py-5 mt-5">
+    <h2 class="text-center mb-5 fw-bold">🥘Indian Recipes</h2>
+    <div class="row g-4">
+
+      <!-- Butter Chicken -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm recipe-card">
+          <img src="images/butter-chicken.jpg" class="card-img-top" alt="Delicious creamy Butter Chicken curry">
+          <div class="card-body">
+            <h5 class="card-title">Butter Chicken</h5>
+            <p class="card-text">Creamy tomato-based chicken curry loved worldwide.</p>
+            <a href="recipe-detail.html?id=butter-chicken" class="btn btn-custom">View Recipe</a>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Paneer Tikka -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm recipe-card">
+          <img src="images/paneer-tikka.jpg" class="card-img-top" alt="Grilled spicy Paneer Tikka skewers">
+          <div class="card-body">
+            <h5 class="card-title">Paneer Tikka</h5>
+            <p class="card-text">Spiced cottage cheese cubes grilled to perfection.</p>
+            <a href="recipe-detail.html?id=paneer-tikka" class="btn btn-custom">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hyderabadi Biryani -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm recipe-card">
+          <img src="images/biryani.jpg" class="card-img-top" alt="Flavorful Hyderabadi Biryani with saffron rice">
+          <div class="card-body">
+            <h5 class="card-title">Hyderabadi Biryani</h5>
+            <p class="card-text">Aromatic rice cooked with spices, saffron, and chicken/mutton.</p>
+            <a href="recipe-detail.html?id=biryani" class="btn btn-custom">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Masala Dosa -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm recipe-card">
+          <img src="images/masala-dosa.jpg" class="card-img-top" alt="Crispy Masala Dosa stuffed with potatoes">
+          <div class="card-body">
+            <h5 class="card-title">Masala Dosa</h5>
+            <p class="card-text">Crispy rice crepe stuffed with spiced potato filling.</p>
+            <a href="recipe-detail.html?id=masala-dosa" class="btn btn-custom">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gulab Jamun -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm recipe-card">
+          <img src="images/gulab-jamun.jpg" class="card-img-top" alt="Soft Gulab Jamun soaked in sugar syrup">
+          <div class="card-body">
+            <h5 class="card-title">Gulab Jamun</h5>
+            <p class="card-text">Sweet fried dough balls soaked in rose-flavored sugar syrup.</p>
+            <a href="recipe-detail.html?id=gulab-jamun" class="btn btn-custom">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

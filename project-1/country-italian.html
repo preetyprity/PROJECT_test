@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Italian Recipes</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">🍴 Delicious Recipes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="recipes.html" class="nav-link">Recipes</a></li>
+      
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Italian Recipes Section -->
+  <section class="container py-5 mt-5">
+    <h2 class="text-center mb-5 fw-bold">🍕Italian Recipes</h2>
+    <div class="row g-4">
+
+      <!-- Pizza -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm recipe-card">
+          <img src="images/pizza.jpg" class="card-img-top" alt="Classic Pizza Margherita with mozzarella and basil">
+          <div class="card-body">
+            <h5 class="card-title">Pizza Margherita</h5>
+            <p class="card-text">Classic Italian pizza with tomato, mozzarella, and basil.</p>
+             <a href="recipe-detail.html?id=pizza" class="btn btn-custom">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pasta -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm recipe-card">
+          <img src="images/pasta.jpg" class="card-img-top" alt="Pasta Carbonara with pancetta and parmesan">
+          <div class="card-body">
+            <h5 class="card-title">Pasta Carbonara</h5>
+            <p class="card-text">Creamy pasta with pancetta, eggs, and parmesan cheese.</p>
+             <a href="recipe-detail.html?id=pasta" class="btn btn-custom">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lasagna -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm recipe-card">
+          <img src="images/lasagna.jpg" class="card-img-top" alt="Cheesy Italian Lasagna with béchamel sauce">
+          <div class="card-body">
+            <h5 class="card-title">Lasagna</h5>
+            <p class="card-text">Layered pasta with meat sauce, béchamel, and cheese.</p>
+             <a href="recipe-detail.html?id=lasagna" class="btn btn-custom">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Risotto -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm recipe-card">
+          <img src="images/risotto.jpg" class="card-img-top" alt="Creamy Italian Risotto with parmesan">
+          <div class="card-body">
+            <h5 class="card-title">Risotto</h5>
+            <p class="card-text">Creamy rice dish cooked slowly with broth and parmesan.</p>
+             <a href="recipe-detail.html?id=risotto" class="btn btn-custom">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tiramisu -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm recipe-card">
+          <img src="images/tiramisu.jpg" class="card-img-top" alt="Classic Italian Tiramisu with cocoa and mascarpone">
+          <div class="card-body">
+            <h5 class="card-title">Tiramisu</h5>
+            <p class="card-text">Coffee-flavored dessert with mascarpone and cocoa.</p>
+             <a href="recipe-detail.html?id=tiramisu" class="btn btn-custom">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bruschetta -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm recipe-card">
+          <img src="images/bruschetta.jpg" class="card-img-top" alt="Bruschetta with tomatoes, garlic, and olive oil">
+          <div class="card-body">
+            <h5 class="card-title">Bruschetta</h5>
+            <p class="card-text">Toasted bread topped with tomatoes, garlic, and olive oil.</p>
+             <a href="recipe-detail.html?id=bruschetta" class="btn btn-custom">View Recipe</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
